@@ -1,0 +1,93 @@
+.landing{
+    background: #2F303A;
+    min-height: 90vh;
+    position: relative;
+    z-index: 0;
+}
+.nav-container{
+    background: #2F303A;
+}
+nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    min-height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+
+  .logo{
+      display: flex;
+        flex: 4;
+      img{
+          height:4rem;
+          margin: -0.5rem 0.5rem;
+      }
+  }
+
+  ul{
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      flex: 1;
+  }
+
+}
+.showcase{
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    .info{
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        padding: 15rem;
+        line-height: 6rem;
+    }
+    button{
+        margin-top: 5rem;
+        height: 6rem;
+        width:  15rem;
+        border-radius: 1rem;
+        border: none;
+        background:#1762A7;
+    }
+}
+.showcase img{
+    height: 80vh;
+    flex: 1;
+}
+  .circle1 div{
+      position: absolute;
+      left: 5%;
+      bottom: 5%;
+    height:30rem;
+    width:30rem;
+    background-color: #BC3A80;
+    border-radius: 50%;
+    opacity: 0.1;
+    z-index: -1;
+}
+.circle2 div{
+    position: absolute;
+      left: 40%;
+      bottom: 60%;
+    height:15rem;
+    width:15rem;
+    background-color: #1762A7;
+    border-radius: 50%;
+    opacity: 0.1;
+    z-index: -1;
+}
+.circle3 div{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  height:50rem;
+  width:50rem;
+  background-color: #1762A7;
+  border-radius: 50%;
+  opacity: 0.1;
+  z-index: -1;
+}
